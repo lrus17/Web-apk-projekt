@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Richard Mille Collection</title>
+    <style>
+.article {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.6); 
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: opacity 0.5s ease-in-out;
+    background-image: url('https://images.lacotedesmontres.com/mesIMG/imgStd/77161.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay; 
+    color: black; }
+
+
+.watches, .article {
+            display: none;
+            text-align: center;
+            padding: 20px;}
+
+            .article textarea {
+            width: 100%;
+            max-width: 800px;
+            height: 300px;
+            padding: 10px;
+            font-size: 16px;
+        }          
+
+
+            .article textarea {
+            width: 100%;
+            max-width: 800px;
+            height: 300px;
+            padding: 10px;
+            font-size: 16px;
+        }            
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+    overflow: hidden;}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;}
+
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+        .header {
+            padding: 20px;
+            background: #111;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 10px;
+            background: #222;
+        }
+        .nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .nav a:hover {
+            text-decoration: underline;
+        }
+        .container {
+            padding: 20px;
+        }
+        .watches img, .making-of video {
+            width: 100%;
+            max-width: 800px;
+            margin-top: 20px;
+        }
+        .making-of, .watches {
+            display: none;
+            padding: 20px;
+            text-align: left;
+            max-width: 800px;
+            margin: auto;
+        }
+        .footer {
+            padding: 20px;
+            background: #111;
+        }
+        .hero {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            overflow: hidden;
+        }
+        .hero img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .hero h1 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 3rem;
+            color: white;
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+        }
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+            .nav {
+                flex-direction: column;
+                align-items: center;
+            }
+            .nav a {
+                font-size: 16px;
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="hero">
+        <img src="https://sothebys-com.brightspotcdn.com/dims4/default/aa3ce03/2147483647/strip/true/crop/2400x2018+0+0/resize/1784x1500!/quality/90/?url=http%3A%2F%2Fsothebys-brightspot.s3.amazonaws.com%2Fdotcom%2F23%2F55%2F5045dabd4ac3af560baff56e3d23%2F6b-richard-mille-rm50-01-czcz6.jpg" alt="Hero slika s ručnim satovima">
+        <h1>RICHARD MILLE ® Watch Collection</h1>
+    </div>
+
+    <div class="header">Richard Mille Collection</div>
+
+    <div class="nav">
+        <a href="https://www.richardmille.com/">Homepage</a>
+        <a href="#" onclick="showSection('making-of')">Making of RM</a>
+        <a href="#" onclick="showSection('watches')">Watches</a>
+        <a href="#" onclick="showSection('article')">Article</a>
+        <a href="#" onclick="showSection('contact')">Contact</a>
+    </div>
+
+    <div class="container content-section">
+        <h1>Luxury Watches</h1>
+        <p>Dobrodošli u svijet luksuznih satova Richard Mille.</p>
+    </div>
+
+    <div class="making-of content-section">
+        <h2>Making of RM</h2>
+        <p>Pogledajte ekskluzivan video o izradi Richard Mille satova:</p>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/U4slOHQ76Gc?autoplay=1&modestbranding=1&showinfo=0&rel=0&autohide=1" 
+                    title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media;" allowfullscreen>
+            </iframe>
+        </div>
+    </div>
+
+    
+
+    <div class="watches content-section">
+        <h2>Naši satovi</h2>
+        <div class="watch-grid">
+            <div class="watch">
+                <img src="https://cdn.thewatchpages.com/app/uploads/2022/09/30174332/richard-mille-rm-88-automatic-tourbillon-smile-1408127140-10-scaled.jpg" alt="RM 88">
+                <p>RM 88 - Automatic Winding Tourbillon Smiley</p>
+            </div>
+            <div class="watch">
+                <img src="https://cdn.ferrari.com/cms/network/media/img/resize/62bdaa22bc4f2453880e4778-richardmille768test?width=768&height=1024" alt="RM UP-01 Ferrari">
+                <p>RM UP-01 Ferrari - Manual Winding Ultraflat</p>
+            </div>
+            <div class="watch">
+                <img src="https://images.squarespace-cdn.com/content/v1/512f9596e4b0ed945e3306aa/1622052511976-FSR69PUFVUN4JUNDLNBI/RM74-02_5H_BB.jpg" alt="RM 74-02">
+                <p>RM 74-02 - Automatic Winding Tourbillon</p>
+            </div>
+            <div class="watch">
+                <img src="https://www.watchonista.com/sites/default/files/styles/690x0/public/watchographer/925/watches/471276/pictures/rm67-02_alexander_zverev.jpg?itok=dnrAdj-h&timestamp=1525173285" alt="RM 67-02">
+                <p>RM 67-02 - Automatic Winding Extra Flat</p>
+            </div>
+            <div class="watch">
+                <img src="https://swisswatches-magazine.com/wp-content/uploads/2023/01/Richard-Mille-RM66-Flying-Tourbillon-ROCK-1.jpg" alt="RM 88">
+                <p>RM 66 - Flying Tourbillon</p>
+            </div>
+            <div class="watch">
+                <img src="https://watchesbysjx.com/wp-content/uploads/2020/12/richard-mille-RM-65-01-Automatic-Split-Seconds-Chronograph-17.jpg" alt="RM 88">
+                <p>RM 65-01 - Automatic Winding Split-seconds Chronograph</p>
+            </div>
+            <div class="watch">
+                <img src="https://images.lacotedesmontres.com/mesIMG/imgStd/75011.jpg" alt="RM 88">
+                <p>RM 35-01 - Automatic Winding Rafael Nadal</p>
+            </div>
+            <div class="watch">
+                <img src="https://hodinkee-production.s3.amazonaws.com/uploads/images/74c70521-70cd-4234-8816-45f3e4206017/RM032-profile.jpg" alt="RM 88">
+                <p>RM 032 - Ultimate Edition</p>
+            </div>
+            <div class="watch">
+                <img src="https://cryptoemporium.com/images/detailed/13/ezgif.com-gif-maker__71_.jpg" alt="RM 88">
+                <p>RM 17-01 - Manual Winding Tourbillon</p>
+            </div>
+            <div class="watch">
+                <img src="https://i0.wp.com/deployant.com/wp-content/uploads/2025/01/rm_07_02_green_sapphire_set_3_4_front_boon_bb-scaled.jpg?resize=702%2C918&ssl=1" alt="RM 88">
+                <p>RM 07-02 - Automatic Winding Sapphire</p>
+            </div>
+            <div class="watch">
+                <img src="https://swisswatches-magazine.com/wp-content/uploads/2024/10/richard-mille-rm-65-01-mclaren-w1-split-seconds-chronograph-05.webp" alt="RM 88">
+                <p>RM 65-01 - Automatic Winding Split-seconds Chronograph McLaren W1</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="article content-section">
+        <h2>Članak</h2>
+        
+
+        <div id="clanak" class="hidden">
+            <h2>Satovi tvrtke Richard Mille</h2>
+            <p>Satovi tvrtke Richard Mille moćan su simbol bogatstva za svakoga tko je dovoljno upućen u njihove poznate konture.</p>
+            <p>Francuska tvrtka proizvodi samo oko 5300 satova godišnje, a njihova prosječna cijena iznosi 250 tisuća dolara. Satovi su dizajnirani kako bi izdržali velike gravitacijske sile i nose ih sportaši na utrkama Formule 1, golfskim turnirima i regatama jahti. Također krase ruke glazbenika poput Pharrella Williamsa i Tracyja Laurena Marrowa, poznatijeg kao Ice-T.</p>
+            <p>Lako je uočiti Richarda Millea: mnogi od njih imaju oblik bačve ili zaobljenog pravokutnika, često s prozirnim brojčanicima, tako da je složena mehanika precizne izrade izložena pogledu. Smioni su, originalni i izrađeni od vrhunskih materijala kao što su titanij i zaštićena verzija karbonskih vlakana. Kao simbol robusnosti sata, prsten vijka često ostaje vidljiv duž vanjskog prstena ili okvira. "Ti su vijci nekada služili kako bi kućište držali na mjestu, ali sada više imaju estetsku svrhu", kaže Craig Karger, osnivač i vlasnik web stranice Wrist Enthusiast.</p>
+            <p>Za nešto više od dva desetljeća, Richard Mille došao je iz ničega i probio se među šest najvećih marki satova po prodaji, prihodi su mu porasli za 15 posto u 2022. godini, na 1,3 milijarde švicarskih franaka (1,5 milijardi dolara), prema izvještaju Morgan Stanleya za 2023.</p>
+            <h3>Povijest Richard Millea</h3>
+            <p>Suosnivač brenda Richard Mille započeo je svoju karijeru 1970-ih kod malog francuskog urara Finhor. Nakon više godina u industriji, Mille se želio samostalno oprobati u poslu i pozabaviti svime što mu se nije dopadalo u vezi s običnim satovima. Udružio se sa suosnivačem Dominiqueom Guenatom kako bi kreirao prvi sat RM 001 Tourbillon, predstavljen 2001. Proizvedeno je samo 17 komada.</p>
+            <p>Ovih dana isti mali broj proizvedenih satova, dizajn i visoke cijene učinili su ga statusnim simbolom. Brend je postao poznat kao "narukvica milijardera".</p>
+            <h3>Fokus na izdržljivosti, funkcionalnosti i dizajnu</h3>
+            <p>Kada je Richard Mille pokretao kompaniju, bacao je sat na pločnik kako bi pokazao da se neće polomiti. Njegov cilj bio je napraviti moderan sat koji je izdržljiv, nešto što može izdržati sve. Satovi su ručno i strojno testirani, podvrgnuti udarcima, testovima UV svjetla i vlažnosti.</p>
+            <h3>Zašto su cijene Richard Mille satova tako visoke?</h3>
+            <p>Richard Mille satovi proizvode se u malim serijama, koristeći izuzetno kvalitetne materijale i inovativne tehnike. Ekskluzivnost i dizajn doprinose visokoj cijeni.</p>
+            <h3>Specijalne serije Richard Millea</h3>
+            <p>Brend redovito lansira specijalna izdanja u suradnji sa slavnim osobama i sportskim organizacijama, poput RM 57-01 Jackie Chan ili RM 50-03 izrađenog za McLarenovu F1 ekipu.</p>
+            <h3>Tko nosi satove Richard Mille?</h3>
+            <p>Brend nosi mnogo slavnih osoba i sportaša, uključujući Rafaela Nadala, Charlesa Leclerca, Pharrella Williamsa, Jamesa Hardena i mnoge druge.</p>
+            <h3>Priređivanje svih najboljih zabava</h3>
+            <p>Richard Mille organizira ekskluzivne događaje za svoje klijente, uključujući Kup Richard Mille, Le Mans Classic i Rallye des Princesses.</p>
+        </div>
+    </div>
+
+    <div id="contact" class="contact content-section" style="display: none;">
+        <h2>Kontakt</h2>
+        <p>Kontaktirajte nas putem e-maila: <a href="mailto:info@richardmille.com" class="email-link">info@richardmille.com</a></p>
+        <div class="map-container">
+            <p>Nađite naše dućane na mapi:</p>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2625.337625750515!2d2.2934975156746173!3d48.85884417928708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66ef91874be23%3A0x36e283aa512c5df8!2sEiffel%20Tower!5e0!3m2!1sen!2shr!4v1618066764005!5m2!1sen!2shr"
+                allowfullscreen="" loading="lazy">
+            </iframe>
+        </div>
+    </div>
+
+    <div class="footer">© 2025 Richard Mille Collection</div>
+
+    <script>
+        function showSection(section) {
+            const sections = document.querySelectorAll('.content-section');
+            sections.forEach(sec => sec.style.display = 'none');
+            
+            const selectedSection = document.querySelector('.' + section);
+            if (selectedSection) {
+                selectedSection.style.display = 'block';
+            }
+        }
+    </script>
+</body>
+</html>
